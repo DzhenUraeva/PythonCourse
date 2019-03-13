@@ -1,7 +1,7 @@
 def ham_dist(a, b):
     diff_cnt = 0
     for i in range(0, len(b), 1):
-        if(a[i] != b[i]):
+        if a[i] != b[i]:
             diff_cnt += 1
     return diff_cnt
 
